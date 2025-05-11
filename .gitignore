@@ -1,0 +1,48 @@
+# Python
+
+__pycache__/
+env/
+venv/
+*.env
+*.ini
+*.log
+
+# Chatbot related
+*.db
+*.sqlite3
+
+*.xml
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Other temporary files
+*.bak
+*.tmp
+*.swp
+
+# Output/Generated files
+*.tar.gz
+*.zip
+*.tar
+*.gz
+*.rar
+
+cloudflare.exe
+config.yml
+sample.py
+cloudflare.exe

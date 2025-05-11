@@ -1,0 +1,136 @@
+[
+    {
+      "query": "hello",
+      "intent": "greeting",
+      "response_template": "Hello! 👋 Ready to find your perfect bus journey? 🚌✨"
+    },
+    {
+      "query": "hi there",
+      "intent": "greeting",
+      "response_template": "Hi! Need help booking a bus? 🚍"
+    },
+    {
+      "query": "how are you",
+      "intent": "greeting",
+      "response_template": "I'm great and ready to help you travel! 🛣️ Where to today?"
+    },
+    {
+      "query": "show me todays schedule",
+      "intent": "view_schedule",
+      "response_template": "Here are the available buses from {source} to {destination}. 🚍✨"
+    },
+    {
+      "query": "which buses are available in kolhapur today",
+      "intent": "view_schedule",
+      "response_template": "These are the buses running from {source} to {destination}. 🛣️🚌"
+    },
+    {
+      "query": "available buses in kolhapur",
+      "intent": "view_schedule",
+      "response_template": "These are the buses running from {source} to {destination}. 🛣️🚌"
+    },
+    {
+      "query": "book a ticket from Mumbai to Delhi",
+      "intent": "book_ticket",
+      "response_template": "Sure! Let's book your ticket from {source} to {destination}. 📝🚌"
+    },
+    {
+      "query": "can i have information about booking a ticket from pune to kolkata",
+      "intent": "book_ticket",
+      "response_template": "Sure! Let's book your ticket from {source} to {destination}. 📝🚌"
+    },
+    
+    {
+      "query": "where is the Pune bus stand",
+      "intent": "location_query",
+      "response_template": "Here’s the location for {place_name}! 🗺️🔗"
+    },
+    {
+      "query": "how much time does it take for traveling to kolhapur ",
+      "intent": "location_query",
+      "response_template": "Here’s the location for {place_name}! 🗺️🔗"
+    },
+    {
+      "query": "what is the distance for travelling from mumbai to pune",
+      "intent": "location_query",
+      "response_template": "Here’s the location for {place_name}! 🗺️🔗"
+    },
+    {
+      "query": "is there AC bus available",
+      "intent": "fallback",
+      "response_template": "I'm here to help with bus schedules, bookings, cancellations, and locations only. 🚍✨ Please ask about available buses!"
+    },
+    {
+      "query": "do buses have wifi",
+      "intent": "fallback",
+      "response_template": "Sorry, I can assist you with bus schedules, ticket booking, and locations currently! 🚌✨"
+    },
+    {
+      "query": "can I bring my pet on bus",
+      "intent": "fallback",
+      "response_template": "Oops! I'm focused on helping you with schedules, tickets, and locations. Let's find you a bus! 🚌✨"
+    },
+    {
+      "query": "thats it thank yoy for your help",
+      "intent": "wrapup",
+      "response_template": "glad to be helpful.. have a safe journey"
+    
+    },  {
+      "query": "thank you, you are nice",
+      "intent": "wrapup",
+      "response_template": "you are too, have a nice trip. if you need anything i am right here"
+    },
+    {
+      "query": "Thank you",
+      "intent": "wrapup",
+      "response_template": "Happy to help, have a safe journey . if you need anything i am here"},
+      {
+        "query": "thanks a lot",
+        "intent": "wrapup",
+        "response_template": "Anytime! 😊 Have a wonderful journey. Reach out if you need anything!"
+      },
+      {
+        "query": "thank you so much",
+        "intent": "wrapup",
+        "response_template": "You're very welcome! ✨ Have a great trip ahead. I'm here if you need me!"
+      },
+      {
+        "query": "bye",
+        "intent": "wrapup",
+        "response_template": "Bye! 👋 Wishing you a safe and happy journey! 🚌✨"
+      },
+      {
+        "query": "i want to book a bus ticket",
+        "intent": "book_ticket",
+        "response_template": "Of course! Let's book your journey from {source} to {destination}. 🎟️🚌"
+      },
+      {
+        "query": "can you book a ticket for me",
+        "intent": "book_ticket",
+        "response_template": "Sure thing! ✨ Booking your ticket from {source} to {destination} now! 📝🚌"
+      },
+      {
+        "query": "help me book a ticket",
+        "intent": "book_ticket",
+        "response_template": "Absolutely! 🛫 Let's get you a seat from {source} to {destination}. 🚍📜"
+      },
+      {
+        "query": "show me buses available today",
+        "intent": "view_schedule",
+        "response_template": "Here’s the list of buses running today from {source} to {destination}. 🚌📋"
+      },
+      {
+        "query": "are there any buses today",
+        "intent": "view_schedule",
+        "response_template": "Here are the available options for today between {source} and {destination}! 🚍🗓️"
+      },
+      {
+        "query": "buses running today",
+        "intent": "view_schedule",
+        "response_template": "These buses are on the road today from {source} to {destination}. Safe travels! 🛣️✨"
+      }
+      
+      
+    ]
+      
+  
