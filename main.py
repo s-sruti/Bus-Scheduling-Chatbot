@@ -5,8 +5,8 @@ import urllib.parse
 app = Flask(__name__)
 
 # Twilio credentials
-account_sid = 'AC12ba045703c96a6c94e9dd42dfbd6819'
-auth_token = 'c2e66c44f0d725d59b71b2f587289efd'
+account_sid = 'your_account_sid'
+auth_token = 'your_account_auth'
 twilio_number = 'whatsapp:+14155238886'  # This is your Twilio Sandbox number
 
 client = Client(account_sid, auth_token)
